@@ -13,6 +13,7 @@
   <PropertyGroup Condition=" '$(RunConfiguration)' == 'AppStore.HttpApi.Host' " />
 
   <ItemGroup>
+		<PackageReference Include="Volo.Abp.Mapperly" Version="10.5.0"  />
     <PackageReference Include="AspNetCore.HealthChecks.UI" Version="9.0.0" />
     <PackageReference Include="KubernetesClient" Version="18.0.5" />
     <PackageReference Include="IdentityModel" Version="7.0.0" />
