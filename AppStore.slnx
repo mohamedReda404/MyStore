@@ -1,0 +1,23 @@
+<Solution>
+    <Configurations>
+        <Platform Name="Any CPU" />
+    </Configurations>
+    <Folder Name="/src/">
+        <Project Path="src/AppStore.Domain/AppStore.Domain.csproj" />
+        <Project Path="src/AppStore.Application/AppStore.Application.csproj" />
+        <Project Path="src/AppStore.EntityFrameworkCore/AppStore.EntityFrameworkCore.csproj" />
+        <Project Path="src/AppStore.Domain.Shared/AppStore.Domain.Shared.csproj" />
+        <Project Path="src/AppStore.Application.Contracts/AppStore.Application.Contracts.csproj" />
+        <Project Path="src/AppStore.HttpApi/AppStore.HttpApi.csproj" />
+        <Project Path="src/AppStore.HttpApi.Client/AppStore.HttpApi.Client.csproj" />
+        <Project Path="src/AppStore.HttpApi.Host/AppStore.HttpApi.Host.csproj" />
+        <Project Path="src/AppStore.DbMigrator/AppStore.DbMigrator.csproj" />
+    </Folder>
+    <Folder Name="/test/">
+        <Project Path="test/AppStore.Application.Tests/AppStore.Application.Tests.csproj" />
+        <Project Path="test/AppStore.EntityFrameworkCore.Tests/AppStore.EntityFrameworkCore.Tests.csproj" />
+        <Project Path="test/AppStore.TestBase/AppStore.TestBase.csproj" />
+        <Project Path="test/AppStore.Domain.Tests/AppStore.Domain.Tests.csproj" />
+        <Project Path="test/AppStore.HttpApi.Client.ConsoleTestApp/AppStore.HttpApi.Client.ConsoleTestApp.csproj" />
+    </Folder>
+</Solution>

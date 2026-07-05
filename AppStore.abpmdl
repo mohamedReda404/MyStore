@@ -1,0 +1,114 @@
+{
+  "template": "app",
+  "imports": {
+    "Volo.Abp.LeptonXLiteTheme": {
+      "version": "5.5.0",
+      "isInstalled": true,
+      "creationTime": "07/04/2026 17:05:44 +00:00"
+    },
+    "Volo.Abp.Account": {
+      "version": "10.5.0",
+      "isInstalled": true,
+      "creationTime": "07/04/2026 17:05:44 +00:00"
+    },
+    "Volo.Abp.OpenIddict": {
+      "version": "10.5.0",
+      "isInstalled": true,
+      "creationTime": "07/04/2026 17:05:44 +00:00"
+    },
+    "Volo.Abp.Identity": {
+      "version": "10.5.0",
+      "isInstalled": true,
+      "creationTime": "07/04/2026 17:05:44 +00:00"
+    },
+    "Volo.Abp.TenantManagement": {
+      "version": "10.5.0",
+      "isInstalled": true,
+      "creationTime": "07/04/2026 17:05:44 +00:00"
+    },
+    "Volo.Abp.SettingManagement": {
+      "version": "10.5.0",
+      "isInstalled": true,
+      "creationTime": "07/04/2026 17:05:44 +00:00"
+    },
+    "Volo.Abp.PermissionManagement": {
+      "version": "10.5.0",
+      "isInstalled": true,
+      "creationTime": "07/04/2026 17:05:44 +00:00"
+    },
+    "Volo.Abp.FeatureManagement": {
+      "version": "10.5.0",
+      "isInstalled": true,
+      "creationTime": "07/04/2026 17:05:44 +00:00"
+    },
+    "Volo.Abp.BlobStoring.Database": {
+      "version": "10.5.0",
+      "isInstalled": true,
+      "creationTime": "07/04/2026 17:05:44 +00:00"
+    }
+  },
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {}
+    }
+  },
+  "packages": {
+    "AppStore.Application": {
+      "path": "src/AppStore.Application/AppStore.Application.abppkg",
+      "folder": "src"
+    },
+    "AppStore.Application.Tests": {
+      "path": "test/AppStore.Application.Tests/AppStore.Application.Tests.abppkg",
+      "folder": "test"
+    },
+    "AppStore.Domain.Shared": {
+      "path": "src/AppStore.Domain.Shared/AppStore.Domain.Shared.abppkg",
+      "folder": "src"
+    },
+    "AppStore.Application.Contracts": {
+      "path": "src/AppStore.Application.Contracts/AppStore.Application.Contracts.abppkg",
+      "folder": "src"
+    },
+    "AppStore.HttpApi": {
+      "path": "src/AppStore.HttpApi/AppStore.HttpApi.abppkg",
+      "folder": "src"
+    },
+    "AppStore.HttpApi.Client": {
+      "path": "src/AppStore.HttpApi.Client/AppStore.HttpApi.Client.abppkg",
+      "folder": "src"
+    },
+    "AppStore.EntityFrameworkCore.Tests": {
+      "path": "test/AppStore.EntityFrameworkCore.Tests/AppStore.EntityFrameworkCore.Tests.abppkg",
+      "folder": "test"
+    },
+    "AppStore.EntityFrameworkCore": {
+      "path": "src/AppStore.EntityFrameworkCore/AppStore.EntityFrameworkCore.abppkg",
+      "folder": "src"
+    },
+    "AppStore.TestBase": {
+      "path": "test/AppStore.TestBase/AppStore.TestBase.abppkg",
+      "folder": "test"
+    },
+    "AppStore.Domain.Tests": {
+      "path": "test/AppStore.Domain.Tests/AppStore.Domain.Tests.abppkg",
+      "folder": "test"
+    },
+    "AppStore.HttpApi.Client.ConsoleTestApp": {
+      "path": "test/AppStore.HttpApi.Client.ConsoleTestApp/AppStore.HttpApi.Client.ConsoleTestApp.abppkg",
+      "folder": "test"
+    },
+    "AppStore.DbMigrator": {
+      "path": "src/AppStore.DbMigrator/AppStore.DbMigrator.abppkg",
+      "folder": "src"
+    },
+    "AppStore.HttpApi.Host": {
+      "path": "src/AppStore.HttpApi.Host/AppStore.HttpApi.Host.abppkg",
+      "folder": "src"
+    },
+    "AppStore.Domain": {
+      "path": "src/AppStore.Domain/AppStore.Domain.abppkg",
+      "folder": "src"
+    }
+  }
+}
