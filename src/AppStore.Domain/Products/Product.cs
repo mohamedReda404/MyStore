@@ -12,7 +12,7 @@ namespace AppStore.Products
         public string Description { get; set; } = string.Empty;
         public long Price { get; set; } 
         public ICollection<Brand> ?brands { get; set; }
-        public int BrandId { get; set; }
+        public int CategoryId { get; set; }
         public Category ?category { get; set; }
     }
 }

@@ -22,9 +22,7 @@ namespace AppStore.Configurations
             builder.Property(x => x.Price)
                 .IsRequired();
 
-            builder.HasOne(x => x.category)
-                .WithMany(x => x.Product)
-                .HasForeignKey(f => f.BrandId);
+           
            
         }
     }
