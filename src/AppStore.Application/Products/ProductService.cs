@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AppStore.Permissions;
+using System;
 using System.Collections.Generic;
 using System.Text;
 using Volo.Abp.Application.Dtos;
@@ -11,6 +12,15 @@ namespace AppStore.Products
     {
         public ProductService(IRepository<Product, int> repository) : base(repository)
         {
+            GetPolicyName = AppStorePermissions.ProductGroupName;
+
+            GetListPolicyName = AppStorePermissions.List;
+
+            CreatePolicyName = AppStorePermissions.Create;
+
+            UpdatePolicyName = AppStorePermissions.Edit;
+
+            DeletePolicyName = AppStorePermissions.Delete;
         }
     }
 }
