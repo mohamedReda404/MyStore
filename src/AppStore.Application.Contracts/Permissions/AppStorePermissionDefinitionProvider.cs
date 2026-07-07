@@ -14,6 +14,7 @@ public class AppStorePermissionDefinitionProvider : PermissionDefinitionProvider
 
         var ProductPermission = myGroup.AddPermission(AppStorePermissions.ProductGroupName, L("Permission:Products"));
         ProductPermission.AddChild(AppStorePermissions.Create, L("Permission:Products.Create"));
+        ProductPermission.AddChild(AppStorePermissions.Count, L("Permission:Products.Count"));
         ProductPermission.AddChild(AppStorePermissions.List, L("Permission:Products.List"));
         ProductPermission.AddChild(AppStorePermissions.Edit, L("Permission:Products.Edit"));
         ProductPermission.AddChild(AppStorePermissions.Delete, L("Permission:Products.Delete"));

@@ -1,7 +1,6 @@
 ﻿
 using AppStore.Brands;
 using AppStore.Categorys;
-using System.Collections;
 using System.Collections.Generic;
 
 namespace AppStore.Products

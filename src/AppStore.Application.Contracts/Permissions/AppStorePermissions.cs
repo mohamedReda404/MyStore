@@ -8,6 +8,7 @@ public static class AppStorePermissions
 
     public const string ProductGroupName = GroupName + ".Product";
     public const string List = GroupName + ".List";
+    public const string Count = GroupName + ".Count";
     public const string Create = ProductGroupName + ".Create";
     public const string Edit = ProductGroupName + ".Edit";
     public const string Delete = ProductGroupName + ".Delete";
