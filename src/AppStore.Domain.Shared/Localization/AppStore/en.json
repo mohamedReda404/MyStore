@@ -5,5 +5,16 @@
     "Menu:Home": "Home",
     "LongWelcomeMessage": "Welcome to the application. This is a startup project based on the ABP framework. For more information visit",
     "Welcome": "Welcome"
-  }
+  },
+  
+    "Permission:AppStore": "App Store",
+
+    "Permission:Products": "Products",
+
+    "Permission:Products.Create": "Create Product",
+
+    "Permission:Products.Edit": "Edit Product",
+
+    "Permission:Products.Delete": "Delete Product"
+  
 }
